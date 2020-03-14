@@ -19,13 +19,12 @@ http://localhost/laravel/public/admin<br/>
 email: admin@admin.com<br/>
 password: password<br/>
 
-## Админ панель установлена:<br/>
-Documents for admin panel<br/>
+## Voyager admin docs:<br/>
 https://voyager-docs.devdojo.com/<br/>
 
 ## README.md markdown:<br/>
 https://github.com/OlgaVlasova/markdown-doc/blob/master/README.md<br/>
 
 ## Errors fixing:
-*Error*: The stream or file "*/laravel/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied<br/>
-*Fix*: sudo chmod -R 7777 storage
+<strong>Error</strong>: The stream or file "*/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied<br/>
+<strong>Fix</strong>: sudo chmod -R 7777 storage
