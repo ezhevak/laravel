@@ -14,10 +14,10 @@ https://myhtml.pro/imperial-besplatnyj-odnostranichnyj-bootstrap-shablon/
 - php artisan db:seed 
 - php artisan cache:clear
 
-## URL to admin panell:<br/>
+## Voyager admin URL:<br/>
 http://localhost/laravel/public/admin<br/>
-email: admin@admin.com<br/>
-password: password<br/>
+<strong>email</strong>: admin@admin.com<br/>
+<strong>password</strong>: password<br/>
 
 ## Voyager admin docs:<br/>
 https://voyager-docs.devdojo.com/<br/>
