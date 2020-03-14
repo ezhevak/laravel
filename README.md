@@ -27,5 +27,5 @@ https://voyager-docs.devdojo.com/<br/>
 https://github.com/OlgaVlasova/markdown-doc/blob/master/README.md<br/>
 
 ## Errors fixing:
-Error: The stream or file "*/laravel/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied
-Fix: sudo chmod -R 7777 storage
+*Error*: The stream or file "*/laravel/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied<br/>
+*Fix*: sudo chmod -R 7777 storage
