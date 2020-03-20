@@ -26,6 +26,11 @@ https://voyager-docs.devdojo.com/<br/>
 https://github.com/spatie/laravel-missing-page-redirector<br/>
 настрока пакета в файле конфигурации config/missing-page-redirector.php<br/>
 
+## Установлен пакет Spatie sitemap
+https://github.com/spatie/laravel-sitemap<br/>
+https://www.digitalocean.com/community/questions/how-to-automatically-generate-sitemap-with-laravel<br/>
+php artisan sitemap:generate
+
 ## README.md markdown:<br/>
 https://github.com/OlgaVlasova/markdown-doc/blob/master/README.md<br/>
 
