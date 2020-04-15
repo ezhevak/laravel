@@ -36,4 +36,4 @@ https://github.com/OlgaVlasova/markdown-doc/blob/master/README.md<br/>
 
 ## Errors fixing:
 <strong>Error</strong>: The stream or file "*/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied<br/>
-<strong>Fix</strong>: sudo chmod -R 7777 storage
+<strong>Fix</strong>: sudo chmod -R 777 storage
