@@ -1,7 +1,3 @@
-## Basic template for site:<br/>
-https://myhtml.pro/imperial-besplatnyj-odnostranichnyj-bootstrap-shablon/
-
-
 ## Install application:<br/>
 - cp .env.example .env (Please edit your .env file. Add db connection and APP_URL)
 - php artisan key:gen

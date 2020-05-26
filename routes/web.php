@@ -17,6 +17,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/clear', function() {
+    Artisan::call('cache:clear');
+    Artisan::call('config:clear');
+    Artisan::call('view:clear');
+    Artisan::call('route:clear');
+    return "Cache is cleared";
+});
+
+Route::get('/sitemap', function() {
+    Artisan::call('sitemap:generate');
+    return "Sitemap is generated!";
+});
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
