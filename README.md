@@ -3,10 +3,11 @@ https://myhtml.pro/imperial-besplatnyj-odnostranichnyj-bootstrap-shablon/
 
 
 ## Install application:<br/>
-- composer install
-- npm install
 - cp .env.example .env (Please edit your .env file. Add db connection and APP_URL)
 - php artisan key:gen
+- set .env values
+- composer install
+- npm install
 - php artisan migrate
 - php artisan voyager:install --with-dummy
 
