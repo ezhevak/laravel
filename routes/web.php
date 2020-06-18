@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
 
 Route::get('/clear', function() {
     Artisan::call('cache:clear');
@@ -33,3 +33,5 @@ Route::get('/sitemap', function() {
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
+Route::get('', 'PageController@index')->name('main');

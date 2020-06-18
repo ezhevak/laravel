@@ -35,8 +35,11 @@ https://github.com/OlgaVlasova/markdown-doc/blob/master/README.md<br/>
 <strong>Error</strong>: The stream or file "*/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied<br/>
 <strong>Fix</strong>: sudo chmod -R 777 storage
 
-## установка laravel-debugbar
+## Установлен laravel-debugbar
 https://github.com/barryvdh/laravel-debugbar
 composer require barryvdh/laravel-debugbar --dev
 php artisan vendor:publish --provider="Barryvdh\Debugbar\ServiceProvider"
 php artisan config:cache
+
+## Установлен SEO Tools for Laravel
+https://github.com/artesaos/seotools
