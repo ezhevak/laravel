@@ -43,3 +43,6 @@ php artisan config:cache
 
 ## Установлен SEO Tools for Laravel
 https://github.com/artesaos/seotools
+
+## Подключена поддержка Bootstrap 4.5 
+https://getbootstrap.com/docs/4.5/getting-started/introduction/#starter-template
