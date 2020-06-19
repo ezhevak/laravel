@@ -22,6 +22,7 @@ Route::get('/clear', function() {
     Artisan::call('config:clear');
     Artisan::call('view:clear');
     Artisan::call('route:clear');
+    
     return "Cache is cleared";
 });
 
@@ -34,4 +35,6 @@ Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
 
-Route::get('', 'PageController@index')->name('main');
+Route::group(['prefix' => LaravelLocalization::setLocale()], function(){
+    Route::get('', 'PageController@index')->name('home');
+});

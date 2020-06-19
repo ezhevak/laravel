@@ -1,22 +1,16 @@
 @extends('layouts.app')
 
 @section('content')
-    <!--div class="flex-center position-ref full-height">
-        @if (Route::has('login'))
-            <div class="top-right links">
-                @auth
-                    <a href="{{ url('/home') }}">Home</a>
-                @else
-                    <a href="{{ route('login') }}">Login</a>
 
-                    @if (Route::has('register'))
-                        <a href="{{ route('register') }}">Register</a>
-                    @endif
-                @endauth
-            </div>
-        @endif
-    </div-->
-     
-    <h1>Hello, world!</h1>
-
+<div class="container">  
+    <div class="jumbotron">
+    <h1 class="display-4">{{ $page->title }}</h1>
+    <p class="lead">{!! $page->body !!}</p>
+    <hr class="my-4">
+    <p>{{ $page->excerpt }}</p>
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" href="{{ \LaravelLocalization::localizeURL('/') }}" role="button">@lang('messages.learn_more')</a>
+    </p>
+    </div>
+</div>
 @endsection
