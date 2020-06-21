@@ -49,3 +49,6 @@ https://getbootstrap.com/docs/4.5/getting-started/introduction/#starter-template
 
 ## Установлен Laravel Localization
 https://github.com/mcamara/laravel-localization
+
+## HTML Template
+https://startbootstrap.com/themes/grayscale/
