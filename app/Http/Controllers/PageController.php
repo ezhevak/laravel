@@ -28,7 +28,7 @@ class PageController extends Controller
         SEOTools::opengraph()->addProperty('title', $page["title"]);
         SEOTools::opengraph()->addProperty('description', $page["meta_description"]);
         SEOTools::opengraph()->addProperty('site_name', 'Marseille Resort');
-        SEOTools::opengraph()->addProperty('locale', App::getLocale().'-UA');
+        SEOTools::opengraph()->addProperty('locale', App::getLocale().'_UA');
         SEOTools::opengraph()->addProperty('type', 'articles');
         SEOTools::opengraph()->addProperty('url', Url::current());
         SEOTools::opengraph()->addProperty('image', asset('storage/'.$page->image));
