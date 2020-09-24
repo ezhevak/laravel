@@ -33,7 +33,7 @@ https://github.com/OlgaVlasova/markdown-doc/blob/master/README.md<br/>
 
 ## Errors fixing:
 <strong>Error</strong>: The stream or file "*/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied<br/>
-<strong>Fix</strong>: sudo chmod -R 777 storage
+<strong>Fix</strong>: ``` sudo chmod -R 777 storage ```
 
 ## Установлен laravel-debugbar
 https://github.com/barryvdh/laravel-debugbar
@@ -52,3 +52,9 @@ https://github.com/mcamara/laravel-localization
 
 ## HTML Template
 https://startbootstrap.com/themes/grayscale/
+
+## ошибка Allowed memory size
+Fatal error: Allowed memory size of 1610612736 bytes exhausted (tried to allocate 67108864 bytes) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/Solver.php on line 223
+```
+COMPOSER_MEMORY_LIMIT=-1 composer update 
+```
