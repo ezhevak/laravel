@@ -21,5 +21,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           username: ${{ secrets.SSH_USERNAME }}
             
-          script: |
-            cd /home/zhevak/divuar.com.ua/www
+          script: | 
+            whoami
+            echo "$HOST"
+            ls -a
