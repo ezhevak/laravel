@@ -2,6 +2,18 @@ name: remote ssh command
 on: [push]
 jobs:
 
+
+
+
+  tests:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: show ip
+      - run: echo host myip.opendns.com resolver1.opendns.com
+
+
   build:
     name: Build
     runs-on: ubuntu-latest
@@ -12,4 +24,3 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }}
         script: whoami
-        
