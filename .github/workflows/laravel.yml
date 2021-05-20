@@ -12,5 +12,4 @@ jobs:
         host: ${{ secrets.HOST }}
         key: ${{ secrets.KEY }}
         username: ${{ secrets.USERNAME }}
-        debug: true
         script: whoami
