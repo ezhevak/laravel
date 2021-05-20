@@ -22,3 +22,4 @@ jobs:
           script: |
             cd /home/zhevak/
             mkdir test
+            
