@@ -20,6 +20,5 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           username: ${{ secrets.SSH_USERNAME }}
           script: |
-            cd /home/zhevak/labtest.net.ua/www/covid
-            git checkout -f 
-            git pull origin master
+            cd /home/zhevak/
+            mkdir test
