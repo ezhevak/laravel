@@ -25,4 +25,3 @@ jobs:
             cd /home/zhevak/divuar.com.ua/www
             git checkout -f 
             git pull
-            
